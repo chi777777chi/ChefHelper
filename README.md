@@ -17,10 +17,11 @@ ChefHelper 是一款智慧料理小助手 App，協助使用者透過「掃描�
   使用 sheet 呈現產出的菜餚資訊與製作步驟。
 
 NextStep
+```
 ChefHelper/
 ├── App/
-│   └── AppCoordinator.swift            # Handles root flow (auth vs main)
-│   └── NavigationCoordinator.swift     # Tab + modal navigation logic
+│   ├── AppCoordinator.swift         # Handles root flow (auth vs main)
+│   └── NavigationCoordinator.swift  # Tab + modal navigation logic
 │
 ├── Features/
 │   ├── Onboarding/
@@ -67,5 +68,7 @@ ChefHelper/
 │   ├── Models/
 │   ├── Utilities/
 │   ├── Extensions/
-│   └── Components/ 
+│   └── Components/
+```
+
 
